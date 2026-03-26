@@ -1,10 +1,117 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <title>Ashan | Web Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #0f172a;
+      color: #e2e8f0;
+    }
+
+    header {
+      background: #020617;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    nav a {
+      color: #38bdf8;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+      margin-top: 40px;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 10px 15px;
+      background: #38bdf8;
+      color: #020617;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Hello, I'm Ashan 👋</h1>
-  <p>Welcome to my website!</p>
+
+<header>
+  <h1>Ashan Navarathna</h1>
+  <p>Freelance Web Developer</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>
+      I am a web developer specializing in Laravel, Filament, and ERP systems.
+      I build business applications and scalable web solutions.
+    </p>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="card">
+    <h3>ERP System</h3>
+    <p>Automobile ERP with inventory, sales, and HR modules.</p>
+    <a class="button" href="#">Live Demo</a>
+  </div>
+
+  <div class="card">
+    <h3>Portfolio Website</h3>
+    <p>Personal website hosted on GitHub Pages.</p>
+    <a class="button" href="#">View Project</a>
+  </div>
+
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: your@email.com</p>
+    <p>GitHub: github.com/your-username</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Ashan Navarathna</p>
+</footer>
+
 </body>
 </html>
